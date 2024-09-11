@@ -1,0 +1,71 @@
+.background-image{
+    background-image: url(images.jpg);
+    width: 150px;
+    height: 150px;
+    background-position: center;
+}
+#sec1{
+    background-color: rgb(34, 209, 153);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2ch;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+
+}
+.sec2{
+    border: 1px black solid;
+    border-radius: 10px;
+    border-color: green;
+    width: fit-content;
+    height: fit-content;
+    background-color: blanchedalmond;
+    color: blue;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+}
+.tt{
+    display: none;
+}
+.sec2:hover .tt{
+    display: block;
+}
+#sec3{
+    border: 1px darkviolet dotted;
+    margin: 10px;
+    background-color: darkblue;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 10px 5px 10px;
+}
+#container{
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color: black;
+    color: azure;
+}
+#sec4{
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    color: azure;
+}
+#sec4-1{
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+}
+a{
+    color: azure;
+    font-weight: bold;
+    text-decoration:none;
+}
+a:hover{
+    color: red;
+}
+#sec5{
+    background-color: brown;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150;
+    font-style: italic;
+}
